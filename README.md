@@ -1,4 +1,4 @@
-##✨ Greensward  ✨
+## ✨ Greensward  ✨
 
 This is a web based application developed for crop health and crop recommendation system based website in india.
 
@@ -26,7 +26,7 @@ This is a web based application developed for crop health and crop recommendatio
 
 
 
-### Plant Enquirybot -
+### Plant Enquirybot page -
 ![Screenshot (110)](https://github.com/Kowshik001/Project-FRT/assets/108167224/07ed8a9e-672b-477c-a3aa-80570130732f)
 
 
@@ -34,7 +34,7 @@ This is a web based application developed for crop health and crop recommendatio
 
   
   
-### About -
+### About page -
 ![Screenshot (104)](https://github.com/Kowshik001/Project-FRT/assets/108167224/1b7e3b4b-8c1f-45aa-947e-5ad9a5d748e5)
 
 
@@ -42,7 +42,7 @@ This is a web based application developed for crop health and crop recommendatio
 
  
  
-### Services -
+### Services page -
 ![Screenshot (106)](https://github.com/Kowshik001/Project-FRT/assets/108167224/a067be66-cd03-450a-acf7-c93c09077658)
 
 
@@ -50,13 +50,13 @@ This is a web based application developed for crop health and crop recommendatio
 
 
 
-### Contact -
+### Contact page -
 ![Screenshot (112)](https://github.com/Kowshik001/Project-FRT/assets/108167224/aa98f465-f298-42ee-855e-6108f9b6237c)
 
 
 
 
-### Crop Selection -
+### Crop Selection page -
 ![Screenshot (108)](https://github.com/Kowshik001/Project-FRT/assets/108167224/fd68042a-aad1-4eb6-8198-731a2585c6ee)
 
 
