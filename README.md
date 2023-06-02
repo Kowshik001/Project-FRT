@@ -26,7 +26,7 @@ This is a web based application developed for crop health and crop recommendatio
 
 
 
-### Plant Enquirybot page -
+### Health Enquirybot page -
 ![Screenshot (110)](https://github.com/Kowshik001/Project-FRT/assets/108167224/07ed8a9e-672b-477c-a3aa-80570130732f)
 
 
