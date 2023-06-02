@@ -1,4 +1,4 @@
-## ✨ Greensward  ✨
+# ✨ Greensward  ✨
 
 This is a web based application developed for crop health and crop recommendation system based website in india.
 
@@ -13,7 +13,7 @@ This is a web based application developed for crop health and crop recommendatio
 1. Static web apps
 2. Health bot
 
-## Features and Functionalities 😃
+## Features and Functionalities 
 
 - Interactive and responsive user interface.
 - includes more graphics and new visuals.
