@@ -1,0 +1,732 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Greensward - Gardening Category - checking </title>
+    <!-- google-fonts -->
+    <link href="//fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700;900&display=swap" rel="stylesheet">
+    <!-- //google-fonts -->
+    <!-- Template CSS Style link -->
+    <link rel="stylesheet" href="assets/css/style-starter.css">
+</head>
+
+<body>
+    
+    <!--header-->
+    <header id="site-header" class="fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg stroke">
+                <h1>
+                    <a class="navbar-brand" href="index.html">
+                        <span>G</span>reensward
+                    </a>
+                </h1>
+                <!-- if logo is image enable this   
+    <a class="navbar-brand" href="#index.html">
+        <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
+    </a> -->
+                <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse"
+                    data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+                    <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ml-lg-auto">
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="services.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="checking.html">Crop selection</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="planthealthbot.html">Health Enquirybot</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- search button -->
+                <div class="search-right ml-lg-3">
+                    <div class="search-container">
+                        <form action="/search" method="get">
+                            <input class="search expandright" id="searchright" type="search" name="q"
+                                placeholder="Search">
+                            <label class="button searchbutton" for="searchright"><i class="fas fa-search"></i></label>
+                        </form>
+                    </div>
+                </div>
+                <!-- //search button -->
+                <!-- toggle switch for light and dark theme -->
+                <div class="cont-ser-position">
+                    <nav class="navigation">
+                        <div class="theme-switch-wrapper">
+                            <label class="theme-switch" for="checkbox">
+                                <input type="checkbox" id="checkbox">
+                                <div class="mode-container">
+                                    <i class="gg-sun"></i>
+                                    <i class="gg-moon"></i>
+                                </div>
+                            </label>
+                        </div>
+                    </nav>
+                </div>
+                <!-- //toggle switch for light and dark theme -->
+            </nav>
+        </div>
+    </header>
+    <!--//header-->
+
+  
+  <!-- !PAGE CONTENT! -->
+  <div class="middle-inner py-5">
+    <div class="container py-md-5 py-4">
+        <div class="about-left text-center py-lg-4">
+            
+       
+  <div class="w3-main w3-animate-zoom" style="text-align: center;margin-top: 100px;">
+  
+    <!-- Header -->
+
+
+        <label style="font-size: 40px;font-weight: 700;color: #fff;">Crop Recomendation System</label><br><pre></pre><br><br>
+        <label style="font-size: 24px;font-weight: 500;color: aliceblue;">Temperature&emsp;:&ensp;</label>
+        <select id="temp" style="border-radius: 15px;
+        border-width: 1.9px;
+        font-size: 18px;
+        width: 190px;
+        
+        border-color: black;
+        height: 31px;text-align: center;">
+                <option value="default">select temperature</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+                <option value="32">32</option>
+                <option value="33">33</option>
+                <option value="34">34</option>
+                <option value="35">35</option>
+                </select>
+        <br><br>
+        <label style="font-size: 24px;font-weight: 500;color: aliceblue;">Soil&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&emsp;:&ensp;</label>
+        <select id="soil" style="border-radius: 15px;
+        border-width: 1.9px;
+        font-size: 18px;
+        width: 190px;
+        
+        border-color: black;
+        height: 31px;text-align: center;">
+                <option value="default">select soil</option>
+                <option value="alluvial soil">alluvial soil</option>
+                <option value="clay">clay</option>
+                <option value="fast-draining">fast draining</option>
+                <option value="loamy">loamy</option>
+                <option value="loosened">loosened</option>
+                <option value="moist soil">moist soil</option>
+                <option value="rich loamy">rich loam</option>
+                <option value="sandy_loamy">sandy loamy</option>
+                <option value="well-drained">well drained</option>
+                </select>
+        <br><br>
+        <label style="font-size: 24px;font-weight: 500;color: aliceblue;" >Rainfall&ensp;&ensp;&ensp;&ensp;&emsp;:&ensp;</label>
+        <select id="rain" style="border-radius: 15px;
+        border-width: 1.9px;
+        font-size: 18px;
+        width: 190px;
+        
+        border-color: black;
+        height: 31px;text-align: center;">
+                <option value="default">select rainfall</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+                <option value="32">32</option>
+                <option value="33">33</option>
+                <option value="34">34</option>
+                <option value="35">35</option>
+                <option value="36">36</option>
+                <option value="37">37</option>
+                <option value="38">38</option>
+                <option value="39">39</option>
+                <option value="40">40</option>
+                <option value="41">41</option>
+                <option value="42">42</option>
+                <option value="43">43</option>
+                <option value="44">44</option>
+                <option value="45">45</option>
+                <option value="46">46</option>
+                <option value="47">47</option>
+                <option value="48">48</option>
+                <option value="49">49</option>
+                <option value="50">50</option>
+                <option value="51">51</option>
+                <option value="52">52</option>
+                <option value="53">53</option>
+                <option value="54">54</option>
+                <option value="55">55</option>
+                <option value="56">56</option>
+                <option value="57">57</option>
+                <option value="58">58</option>
+                <option value="59">59</option>
+                <option value="60">60</option>
+                <option value="61">61</option>
+                <option value="62">62</option>
+                <option value="63">63</option>
+                <option value="64">64</option>
+                <option value="65">65</option>
+                <option value="66">66</option>
+                <option value="67">67</option>
+                <option value="68">68</option>
+                <option value="69">69</option>
+                <option value="70">70</option>
+                <option value="71">71</option>
+                <option value="72">72</option>
+                <option value="73">73</option>
+                <option value="74">74</option>
+                <option value="75">75</option>
+                <option value="76">76</option>
+                <option value="77">77</option>
+                <option value="78">78</option>
+                <option value="79">79</option>
+                <option value="80">80</option>
+                <option value="81">81</option>
+                <option value="82">82</option>
+                <option value="83">83</option>
+                <option value="84">84</option>
+                <option value="85">85</option>
+                <option value="86">86</option>
+                <option value="87">87</option>
+                <option value="88">88</option>
+                <option value="89">89</option>
+                <option value="90">90</option>
+                <option value="91">91</option>
+                <option value="92">92</option>
+                <option value="93">93</option>
+                <option value="94">94</option>
+                <option value="95">95</option>
+                <option value="96">96</option>
+                <option value="97">97</option>
+                <option value="98">98</option>
+                <option value="99">99</option>
+                <option value="100">100</option>
+                <option value="101">101</option>
+                <option value="102">102</option>
+                <option value="103">103</option>
+                <option value="104">104</option>
+                <option value="105">105</option>
+                <option value="106">106</option>
+                <option value="107">107</option>
+                <option value="108">108</option>
+                <option value="109">109</option>
+                <option value="110">110</option>
+                <option value="111">111</option>
+                <option value="112">112</option>
+                <option value="113">113</option>
+                <option value="114">114</option>
+                <option value="115">115</option>
+                <option value="116">116</option>
+                <option value="117">117</option>
+                <option value="118">118</option>
+                <option value="119">119</option>
+                <option value="120">120</option>
+                <option value="121">121</option>
+                <option value="122">122</option>
+                <option value="123">123</option>
+                <option value="124">124</option>
+                <option value="125">125</option>
+                <option value="126">126</option>
+                <option value="127">127</option>
+                <option value="128">128</option>
+                <option value="129">129</option>
+                <option value="130">130</option>
+                <option value="131">131</option>
+                <option value="132">132</option>
+                <option value="133">133</option>
+                <option value="134">134</option>
+                <option value="135">135</option>
+                <option value="136">136</option>
+                <option value="137">137</option>
+                <option value="138">138</option>
+                <option value="139">139</option>
+                <option value="140">140</option>
+                <option value="141">141</option>
+                <option value="142">142</option>
+                <option value="143">143</option>
+                <option value="144">144</option>
+                <option value="145">145</option>
+                <option value="146">146</option>
+                <option value="147">147</option>
+                <option value="148">148</option>
+                <option value="149">149</option>
+                <option value="150">150</option>
+                <option value="151">151</option>
+                <option value="152">152</option>
+                <option value="153">153</option>
+                <option value="154">154</option>
+                <option value="155">155</option>
+                <option value="156">156</option>
+                <option value="157">157</option>
+                <option value="158">158</option>
+                <option value="159">159</option>
+                <option value="160">160</option>
+                <option value="161">161</option>
+                <option value="162">162</option>
+                <option value="163">163</option>
+                <option value="164">164</option>
+                <option value="165">165</option>
+                <option value="166">166</option>
+                <option value="167">167</option>
+                <option value="168">168</option>
+                <option value="169">169</option>
+                <option value="170">170</option>
+                <option value="171">171</option>
+                <option value="172">172</option>
+                <option value="173">173</option>
+                <option value="174">174</option>
+                <option value="175">175</option>
+                <option value="176">176</option>
+                <option value="177">177</option>
+                <option value="178">178</option>
+                <option value="179">179</option>
+                <option value="180">180</option>
+                <option value="181">181</option>
+                <option value="182">182</option>
+                <option value="183">183</option>
+                <option value="184">184</option>
+                <option value="185">185</option>
+                <option value="186">186</option>
+                <option value="187">187</option>
+                <option value="188">188</option>
+                <option value="189">189</option>
+                <option value="190">190</option>
+                <option value="191">191</option>
+                <option value="192">192</option>
+                <option value="193">193</option>
+                <option value="194">194</option>
+                <option value="195">195</option>
+                <option value="196">196</option>
+                <option value="197">197</option>
+                <option value="198">198</option>
+                <option value="199">199</option>
+                <option value="200">200</option>
+                <option value="201">201</option>
+                <option value="202">202</option>
+                <option value="203">203</option>
+                <option value="204">204</option>
+                <option value="205">205</option>
+                <option value="206">206</option>
+                <option value="207">207</option>
+                <option value="208">208</option>
+                <option value="209">209</option>
+                <option value="210">210</option>
+                <option value="211">211</option>
+                <option value="212">212</option>
+                <option value="213">213</option>
+                <option value="214">214</option>
+                <option value="215">215</option>
+                <option value="216">216</option>
+                <option value="217">217</option>
+                <option value="218">218</option>
+                <option value="219">219</option>
+                <option value="220">220</option>
+                <option value="221">221</option>
+                <option value="222">222</option>
+                <option value="223">223</option>
+                <option value="224">224</option>
+                <option value="225">225</option>
+                <option value="226">226</option>
+                <option value="227">227</option>
+                <option value="228">228</option>
+                <option value="229">229</option>
+                <option value="230">230</option>
+                <option value="231">231</option>
+                <option value="232">232</option>
+                <option value="233">233</option>
+                <option value="234">234</option>
+                <option value="235">235</option>
+                <option value="236">236</option>
+                <option value="237">237</option>
+                <option value="238">238</option>
+                <option value="239">239</option>
+                <option value="240">240</option>
+                <option value="241">241</option>
+                <option value="242">242</option>
+                <option value="243">243</option>
+                <option value="244">244</option>
+                <option value="245">245</option>
+                <option value="246">246</option>
+                <option value="247">247</option>
+                <option value="248">248</option>
+                <option value="249">249</option>
+                <option value="250">250</option>
+                <option value="251">251</option>
+                <option value="252">252</option>
+                <option value="253">253</option>
+                <option value="254">254</option>
+                <option value="255">255</option>
+                <option value="256">256</option>
+                <option value="257">257</option>
+                <option value="258">258</option>
+                <option value="259">259</option>
+                <option value="260">260</option>
+                <option value="261">261</option>
+                <option value="262">262</option>
+                <option value="263">263</option>
+                <option value="264">264</option>
+                <option value="265">265</option>
+                <option value="266">266</option>
+                <option value="267">267</option>
+                <option value="268">268</option>
+                <option value="269">269</option>
+                <option value="270">270</option>
+                <option value="271">271</option>
+                <option value="272">272</option>
+                <option value="273">273</option>
+                <option value="274">274</option>
+                <option value="275">275</option>
+                <option value="276">276</option>
+                <option value="277">277</option>
+                <option value="278">278</option>
+                <option value="279">279</option>
+                <option value="280">280</option>
+                <option value="281">281</option>
+                <option value="282">282</option>
+                <option value="283">283</option>
+                <option value="284">284</option>
+                <option value="285">285</option>
+                <option value="286">286</option>
+                <option value="287">287</option>
+                <option value="288">288</option>
+                <option value="289">289</option>
+                <option value="290">290</option>
+                <option value="291">291</option>
+                <option value="292">292</option>
+                <option value="293">293</option>
+                <option value="294">294</option>
+                <option value="295">295</option>
+                <option value="296">296</option>
+                <option value="297">297</option>
+                <option value="298">298</option>
+                
+        </select>
+        <br><br>
+        <label style="font-size: 24px;font-weight: 500;color: aliceblue;">Humidity&ensp;&ensp;&ensp;&emsp;:&ensp;</label>
+        <select id="hum" style="border-radius: 15px;
+        border-width: 1.9px;
+        font-size: 18px;
+        width: 190px;
+        
+        border-color: black;
+        height: 31px;text-align: center;">
+                <option value="default">select humidity</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+                <option value="32">32</option>
+                <option value="33">33</option>
+                <option value="34">34</option>
+                <option value="35">35</option>
+                <option value="36">36</option>
+                <option value="37">37</option>
+                <option value="38">38</option>
+                <option value="39">39</option>
+                <option value="40">40</option>
+                <option value="41">41</option>
+                <option value="42">42</option>
+                <option value="43">43</option>
+                <option value="44">44</option>
+                <option value="45">45</option>
+                <option value="46">46</option>
+                <option value="47">47</option>
+                <option value="48">48</option>
+                <option value="49">49</option>
+                <option value="50">50</option>
+                <option value="51">51</option>
+                <option value="52">52</option>
+                <option value="53">53</option>
+                <option value="54">54</option>
+                <option value="55">55</option>
+                <option value="56">56</option>
+                <option value="57">57</option>
+                <option value="58">58</option>
+                <option value="59">59</option>
+                <option value="60">60</option>
+                <option value="61">61</option>
+                <option value="62">62</option>
+                <option value="63">63</option>
+                <option value="64">64</option>
+                <option value="65">65</option>
+                <option value="66">66</option>
+                <option value="67">67</option>
+                <option value="68">68</option>
+                <option value="69">69</option>
+                <option value="70">70</option>
+                <option value="71">71</option>
+                <option value="72">72</option>
+                <option value="73">73</option>
+                <option value="74">74</option>
+                <option value="80">80</option>
+                <option value="81">81</option>
+                <option value="82">82</option>
+                <option value="83">83</option>
+                <option value="84">84</option>
+                <option value="85">85</option>
+                <option value="86">86</option>
+                <option value="87">87</option>
+                <option value="88">88</option>
+                <option value="89">89</option>
+                <option value="90">90</option>
+                <option value="91">91</option>
+                <option value="92">92</option>
+                <option value="93">93</option>
+                <option value="94">94</option>
+                
+                
+              </select>
+              <br><br>
+        <button style="
+        background-color:#0a0a23;
+        color: #fff;
+        border:none;
+        font-size: 20px;
+        font-weight: 600;
+        border-radius:10px;
+        height: 30px;
+        width: 100px;
+        box-shadow: 0px 0px 2px 2px rgb(0,0,0);" onclick="Find();">Submit</button><br>
+        <br>
+        <h4 style="font-size: 40px;color: aliceblue;" id = "display">Never Lie</h4>
+      
+        <script src="assets/js/backend.js"></script>
+
+         </div>
+    </div>
+</div>
+</div>
+      
+<!-- footer -->
+<footer class="w3l-footer-16">
+        <div class="w3l-footer-16-main py-5">
+            <div class="container py-md-4 pt-md-0 pt-3">
+                <div class="row align-items-center top-footer-content mb-5">
+                    <div class="col-lg-2 col-md-3">
+                        <h2><a class="logo" href="index.html">
+                                <span>G</span>reensward
+                            </a></h2>
+                    </div>
+                    <div class="col-lg-7 col-md-9 mt-md-0 mt-4">
+                        <p class="top-p ml-md-4 pl-md-4 mt-sm-0 mt-2">To Master the skill of Farming. Farming is life's homework... </p>
+                    </div>
+                    
+                </div>
+                <div class="row footer-grids pt-5">
+                    <div class="col-lg-3 col-md-5 col-sm-6 column">
+                        <h3>Get In Touch</h3>
+                        <ul class="column2">
+                            <li class="d-flex align-items-center"><a href="mailto:info@example.com"><i
+                                        class="fas fa-envelope-open-text"></i>xxxx@gmail.com</a>
+                            </li>
+                            <li class="py-sm-3 py-2 d-flex align-items-center"><a href="tel:+44-000-888-999"><i
+                                        class="fas fa-phone-alt"></i>+91 xxxxx xxxxx</a>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <p class="contact-para"><i class="fas fa-map-marker-alt"></i>xxx xxx xxx xxxxxxxx</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-6 column mt-sm-0 mt-4">
+                        <h3>Quick links</h3>
+                        <ul class="footer-gd-16">
+                            <li><a href="index.html"><i class="fas fa-angle-right"></i>Home</a></li>
+                            <li><a href="about.html"><i class="fas fa-angle-right"></i>About
+                                    Us</a></li>
+                            <li><a href="services.html"><i class="fas fa-angle-right"></i>Services</a>
+                            </li>
+                            <li><a href="contact.html"><i class="fas fa-angle-right"></i>Contact
+                                    Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-5 column mt-md-0 mt-4">
+                        <h3>Help & Support</h3>
+                        <ul class="footer-gd-16">
+                            <li><a href="#support"><i class="fas fa-angle-right"></i>Support</a></li>
+                            <li><a href="#live"><i class="fas fa-angle-right"></i>Live Chart</a></li>
+                            <li><a href="#privacy"><i class="fas fa-angle-right"></i>Privacy
+                                    Policy</a></li>
+                            <li><a href="#terms"><i class="fas fa-angle-right"></i>Terms &
+                                    conditions</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-7 col-sm-7 column mt-lg-0 mt-4">
+                        <h3>Newsletter </h3>
+                        <div class="end-column">
+                            <form action="#" class="subscribe" method="post">
+                                <input type="email" name="email" placeholder="Email Address" required="">
+                                <button class="button-style"><span class="fa fa-paper-plane"
+                                        aria-hidden="true"></span></button>
+                            </form>
+                            <p>Subscribe to our mailing list and get updates to your email inbox.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copy-section text-center py-4">
+            <div class="container">
+                <p class="copy-text">&copy; 2023 Greensward. All rights reserved to kowshik reddy
+                </p>
+            </div>
+        </div>
+</footer>
+    <!-- //footer -->
+
+    <!-- Js scripts -->
+    <!-- move top -->
+    <button onclick="topFunction()" id="movetop" title="Go to top">
+        <span class="fas fa-level-up-alt" aria-hidden="true"></span>
+    </button>
+    <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function () {
+                scrollFunction()
+            };
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    document.getElementById("movetop").style.display = "block";
+                } else {
+                    document.getElementById("movetop").style.display = "none";
+                }
+            }
+
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+    </script>
+    <!-- //move top -->
+
+    <!-- common jquery plugin -->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <!-- //common jquery plugin -->
+
+    <!-- theme switch js (light and dark)-->
+    <script src="assets/js/theme-change.js"></script>
+    <script>
+        function autoType(elementClass, typingSpeed) {
+            var thhis = $(elementClass);
+            thhis.css({
+                "position": "relative",
+                "display": "inline-block"
+            });
+            thhis.prepend('<div class="cursor" style="right: initial; left:0;"></div>');
+            thhis = thhis.find(".text-js");
+            var text = thhis.text().trim().split('');
+            var amntOfChars = text.length;
+            var newString = "";
+            thhis.text("|");
+            setTimeout(function () {
+                thhis.css("opacity", 1);
+                thhis.prev().removeAttr("style");
+                thhis.text("");
+                for (var i = 0; i < amntOfChars; i++) {
+                    (function (i, char) {
+                        setTimeout(function () {
+                            newString += char;
+                            thhis.text(newString);
+                        }, i * typingSpeed);
+                    })(i + 1, text[i]);
+                }
+            }, 1500);
+        }
+
+        $(document).ready(function () {
+            // Now to start autoTyping just call the autoType function with the 
+            // class of outer div
+            // The second paramter is the speed between each letter is typed.   
+            autoType(".type-js", 200);
+        });
+    </script>
+    <!-- //theme switch js (light and dark)-->
+
+    <!-- MENU-JS -->
+    <script>
+        $(window).on("scroll", function () {
+            var scroll = $(window).scrollTop();
+
+            if (scroll >= 80) {
+                $("#site-header").addClass("nav-fixed");
+            } else {
+                $("#site-header").removeClass("nav-fixed");
+            }
+        });
+
+        //Main navigation Active Class Add Remove
+        $(".navbar-toggler").on("click", function () {
+            $("header").toggleClass("active");
+        });
+        $(document).on("ready", function () {
+            if ($(window).width() > 991) {
+                $("header").removeClass("active");
+            }
+            $(window).on("resize", function () {
+                if ($(window).width() > 991) {
+                    $("header").removeClass("active");
+                }
+            });
+        });
+    </script>
+    <!-- //MENU-JS -->
+
+    <!-- disable body scroll which navbar is in active -->
+    <script>
+        $(function () {
+            $('.navbar-toggler').click(function () {
+                $('body').toggleClass('noscroll');
+            })
+        });
+    </script>
+    <!-- //disable body scroll which navbar is in active -->
+
+    <!--bootstrap-->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- //bootstrap-->
+    <!-- //Js scripts -->
+</body>
+</html>
