@@ -7,7 +7,7 @@ This is a web based application developed for crop health and crop recommendatio
 
 **Project Link** - https://zealous-flower-04059b400.3.azurestaticapps.net
 
-**Project Demo Video Link** - https://youtu.be/JS0ezQs2LPA
+**Project Demo Video Link** - https://youtu.be/JS0ezQs2LPa
 
 ## Azure technologies used for project
 1. Static web apps
@@ -55,20 +55,9 @@ This is a web based application developed for crop health and crop recommendatio
 
 
 
-
-### Crop Selection page -
-![Screenshot (108)](https://github.com/Kowshik001/Project-FRT/assets/108167224/fd68042a-aad1-4eb6-8198-731a2585c6ee)
-
-
-![Screenshot (109)](https://github.com/Kowshik001/Project-FRT/assets/108167224/7e38a67f-94d4-4407-adcd-43a7cf744534)
-
-
-
-
 ## Technologies 💻
 
 - HTML
 - CSS
 - [Azure(Hosting)](https://azure.microsoft.com/en-in/features/azure-portal/)
 - JavaScript
-- Bootstrap
